@@ -8,7 +8,6 @@ using namespace std;
 // path to trajectory file
 string trajectory_file = "./examples/trajectory.txt";
 
-
 void DrawTrajectory(vector<Isometry3d, Eigen::aligned_allocator<Isometry3d>>);
 
 int main(int argc, char **argv) {
