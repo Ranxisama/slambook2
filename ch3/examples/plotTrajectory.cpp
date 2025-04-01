@@ -1,6 +1,9 @@
 #include <pangolin/pangolin.h>
 #include <Eigen/Core>
 #include <unistd.h>
+// #include <Eigen/Geometry>
+
+// 本例演示了如何画出一个预先存储的轨迹
 
 using namespace Eigen;
 using namespace std;

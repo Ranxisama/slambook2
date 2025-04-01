@@ -1,5 +1,6 @@
 option(USE_UBUNTU_20 "Set to ON if you are using Ubuntu 20.04" OFF)
 find_package(Pangolin REQUIRED)
+find_package(OpenGL REQUIRED)
 if(USE_UBUNTU_20)
     message("You are using Ubuntu 20.04, fmt::fmt will be linked")
     find_package(fmt REQUIRED)
