@@ -10,4 +10,5 @@ add_executable(useSophus useSophus.cpp)
 # Eigen
 include_directories("/usr/include/eigen3")
 target_link_libraries(useSophus Sophus::Sophus)
+
 add_subdirectory(example)
