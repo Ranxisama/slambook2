@@ -54,7 +54,7 @@ int main(int argc, char **argv) {
         Sophus::SE3d T = poses[i];
         for (int v = 0; v < color.rows; v++)
             for (int u = 0; u < color.cols; u++) {
-                unsigned int d = depth.ptr<unsigned short>(v)[u]; // 深度值
+                unednsig int d = depth.ptr<unsigned short>(v)[u]; // 深度值
                 if (d == 0) continue; // 为0表示没有测量到
                 Eigen::Vector3d point;
                 point[2] = double(d) / depthScale;
